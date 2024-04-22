@@ -1,0 +1,10 @@
+{
+  "constraints": {
+    "poetry": "1.7.1"
+  },
+  "extends": [
+    "config:base"
+  ],
+  "ignorePaths": [],
+  "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"]
+}
